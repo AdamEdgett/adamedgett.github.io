@@ -1,0 +1,75 @@
+html {
+    background-image: url("images/DSC_0219.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+body {
+    color: #FFFFC0;
+    font-family: "Comic Sans MS";
+}
+h1 {
+    font-size: 5em;
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    font-size: 3.5em;
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+h4 {
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+a.icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+#github {
+    background: url("images/sprites.png") 0px 0px;
+}
+#linkedin {
+    background: url("images/sprites.png") -30px 0px;
+}
+#facebook {
+    background: url("images/sprites.png") -60px 0px;
+}
+#twitter {
+    background: url("images/sprites.png") -90px 0px;
+}
+#lastfm {
+    background: url("images/sprites.png") -120px 0px;
+}
+.content {
+    overflow: hidden;
+    display: block;
+    background: rgba(30,144,255,1);
+    width: 600px;
+    margin: 200px 600px 30px 30px;
+    padding: 25px 25px 25px 25px;
+}
+.info {
+    padding: 16px 0px;
+}
+.links {
+    padding: 16px 0px;
+}
+ul {
+    list-style-image: url('images/90s/sqorange.gif');
+    padding: 0px;
+}
+lh {
+    font-size: 1.5em;
+}
+li {
+    
+}
