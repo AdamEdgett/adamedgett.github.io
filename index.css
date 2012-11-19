@@ -1,15 +1,16 @@
-html {
+body {
+    font-family: "Optima", sans-serif;
+    color: #FFFFFF;
     background-image: url("images/DSC_0219.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
-body {
-    color: #FFFFFF;
-    font-family: "Optima", sans-serif;
-}
 ::selection {
+    background: #006E50;
+}
+::-moz-selection {
     background: #006E50;
 }
 h1 {
@@ -60,10 +61,10 @@ a.icon {
     margin: 200px 600px 30px 30px;
     padding: 25px 25px 25px 25px;
 }
-.info {
+#info {
     padding: 16px 0px;
 }
-.links {
+#links {
     padding: 16px 0px;
 }
 ul {
