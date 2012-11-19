@@ -1,16 +1,27 @@
-html {
-    background-image: url("images/DSC_0219.jpg");
+body {
+    font-family: "Optima", sans-serif;
+    color: #403B33;
+    background-color: #EDEBE6;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
-}
-body {
-    color: #FFFFFF;
-    font-family: "Optima", sans-serif;
+    margin: 0px;
 }
 ::selection {
-    background: #006E50;
+    background: #94C7B6;
+    color: #FFFFFF;
+}
+::-moz-selection {
+    background: #94C7B6;
+    color: #FFFFFF;
+}
+#header {
+    color: #EDEBE6;
+    background-color: #403B33;
+    border-bottom: 10px solid #94C7B6;
+    width: 100%;
+    margin: 0px 0px;
 }
 h1 {
     font-size: 5em;
@@ -55,15 +66,15 @@ a.icon {
 .content {
     overflow: hidden;
     display: block;
-    background: rgba(0,0,0,0.4);
     width: 600px;
-    margin: 200px 600px 30px 30px;
+    margin: 0px 200px;
+    position: relative;
     padding: 25px 25px 25px 25px;
 }
-.info {
+#info {
     padding: 16px 0px;
 }
-.links {
+#links {
     padding: 16px 0px;
 }
 ul {
