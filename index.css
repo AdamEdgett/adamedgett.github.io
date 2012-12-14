@@ -1,7 +1,9 @@
 body {
-    font-family: "Optima", sans-serif;
-    color: #403B33;
-    background-color: #EDEBE6;
+    font-family: "Signika", sans-serif;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    color: #7B7B7B;
+    background-color: #F1F2EC;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -17,8 +19,8 @@ body {
     color: #FFFFFF;
 }
 #header {
-    color: #EDEBE6;
-    background-color: #403B33;
+    color: #F1F2EC;
+    background-color: #3E6478;
     border-bottom: 10px solid #94C7B6;
     width: 100%;
     margin: 0px 0px;
