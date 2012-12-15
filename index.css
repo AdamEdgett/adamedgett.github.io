@@ -8,7 +8,7 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-    margin: 0px;
+    margin: auto;
 }
 ::selection {
     background: #94C7B6;
@@ -18,12 +18,20 @@ body {
     background: #94C7B6;
     color: #FFFFFF;
 }
-#header {
+header {
     color: #F1F2EC;
     background-color: #3E6478;
     border-bottom: 10px solid #94C7B6;
     width: 100%;
     margin: 0px 0px;
+}
+.content {
+    overflow: hidden;
+    display: block;
+    width: 600px;
+    margin: 0px 200px;
+    position: relative;
+    padding: 25px 25px 25px 25px;
 }
 h1 {
     font-size: 5em;
@@ -50,6 +58,9 @@ a.icon {
     height: 30px;
     width: 30px;
 }
+#info {
+    padding: 16px 0px;
+}
 #github {
     background: url("images/sprites.png") 0px 0px;
 }
@@ -65,27 +76,6 @@ a.icon {
 #lastfm {
     background: url("images/sprites.png") -120px 0px;
 }
-.content {
-    overflow: hidden;
-    display: block;
-    width: 600px;
-    margin: 0px 200px;
-    position: relative;
-    padding: 25px 25px 25px 25px;
-}
-#info {
-    padding: 16px 0px;
-}
 #links {
     padding: 16px 0px;
-}
-ul {
-    list-style-type: none;
-    padding: 0px;
-}
-lh {
-    font-size: 1.5em;
-}
-li {
-    
 }
