@@ -64,18 +64,19 @@ a.icon {
 #github {
     background: url("images/sprites.png") 0px 0px;
 }
-#linkedin {
+#stackoverflow {
     background: url("images/sprites.png") -30px 0px;
 }
-#facebook {
+#linkedin {
     background: url("images/sprites.png") -60px 0px;
 }
-#twitter {
+#facebook {
     background: url("images/sprites.png") -90px 0px;
 }
-#lastfm {
+#twitter {
     background: url("images/sprites.png") -120px 0px;
 }
-#links {
-    padding: 16px 0px;
+#lastfm {
+    background: url("images/sprites.png") -150px 0px;
+}
 }
