@@ -7,4 +7,5 @@ Dark Green	#6C8432
 Grey		#7B7B7B
 Dark Grey	#373637
 Tan			#F1F2EC
-Red			#FB3F3C
+Light Red   #944B4B
+Dark Red    #783E3E
