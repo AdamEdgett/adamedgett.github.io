@@ -2,6 +2,7 @@
 <html>
     <head profile="http://www.w3.org/2005/10/profile">
         <link rel="stylesheet" type="text/css" href="index.css" />
+		<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
         <title>Adam Edgett</title>
 		<link rel="icon" 
 		      type="image/png" 
@@ -21,32 +22,56 @@
 				s.parentNode.insertBefore(ga, s);
   			})();
 		</script>
-		<script type="text/javascript">
-			if(window.addEventListener) {
-				var state = 0, code = [38,38,40,40,37,39,37,39,66,65];
-				window.addEventListener("keydown", function(e) {
-					if(e.keyCode == code[state]) state++;
-					else state = 0;
-					if(state == 10)
-						window.location = "90s.html";
-				}, true);
-			}
-		</script>
     </head>
     <body>
+		<header>
+			<h1 id="name" class="content">Adam Edgett</h1>
+		</header>
         <div class="content">
             <div id="info">
-                <h1 id="name">Adam Edgett</h1>
-                <h3 id="tag">Computer Engineering Student</h2>
-                <p>Student at Northeastern University majoring in Computer Engineering with a minor in Computer Science. Programming experience in Java, C++, Python, ActionScript, MXML, Racket/Scheme, Javascript, Ruby, PHP, and MatLab.  Web development experience in Python Django, Adobe Flex, Ruby on Rails, PHP Smarty, HTML, and CSS.</p>
+                <h3>Computer Engineering Student</h3>
+				<h3 class="red">Northeastern University</h3>
+				<div>
+					<h4>Languages</h4>
+					<p><abbr>Java, C++, Python, ActionScript, Mxml, Racket/Scheme, Javascript, Ruby, Php, Matlab</abbr></p>
+				</div>
+				<div>
+					<h4>Web Development</h4>
+					<p><abbr>Html, Css, Python Django, Adobe Flex, Ruby on Rails, Php Smarty</abbr></p>
+				</div>
+				<div>
+					<h4>Employment</h4>
+					<ul>
+						<li>
+							<p>2012-Present
+							<a href="http://www.coincident.com">Coincident</a></p>
+						</li>
+						<li>
+							<p>2010-Present
+							<a href="http://www.northeastern.edu/resnet">Northeastern University ResNet</a></p>
+						</li>
+					</ul>
+				</div>
+                <!--<p>Student at <span class="red">Northeastern University</span> majoring in Computer Engineering with a minor in Computer Science. Programming experience in 
+                    Java, C++, Python, ActionScript, Mxml, 
+                    Racket/Scheme, Javascript, Ruby, Php, and Matlab.
+                    Web development experience in Python Django, Adobe Flex, Ruby on Rails, Php Smarty, Html, and Css.</p>-->
             </div>
             <div id="links">
-				<a href="http://www.github.com/AdamEdgett" class="icon" id="github"></a>
-				<a href="http://www.linkedin.com/pub/adam-edgett/43/26b/8b3" class="icon" id="linkedin"></a>
-                <a href="http://www.facebook.com/adam.edgett" class="icon" id="facebook"></a>
-                <a href="http://twitter.com/#!/AdamEdgett" class="icon" id="twitter"></a>
-                <a href="http://www.last.fm/user/AEdgett77" class="icon" id="lastfm"></a>
-                <h4 id="email">Adam&#46;Edgett&#64;gmail&#46;com</h3>
+				<a href="http://www.github.com/AdamEdgett"
+					target="_blank" class="icon" id="github"></a>
+				<a href="http://stackoverflow.com/users/1105126/AdamEdgett"
+					target="_blank" class="icon" id="stackoverflow"></a>
+				<a href="http://www.linkedin.com/pub/adam-edgett/43/26b/8b3"
+				    target="_blank" class="icon" id="linkedin"></a>
+                <a href="http://www.facebook.com/adam.edgett"
+					target="_blank" class="icon" id="facebook"></a>
+                <a href="http://twitter.com/#!/AdamEdgett"
+					target="_blank" class="icon" id="twitter"></a>
+                <a href="http://www.last.fm/user/AEdgett77"
+					target="_blank" class="icon" id="lastfm"></a>
+				<br />
+                <a href="mailto:Adam.Edgett@gmail.com" id="email">Adam&#46;Edgett&#64;gmail&#46;com</a>
             </div>	
         </div>
     </body>
