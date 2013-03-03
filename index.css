@@ -28,7 +28,7 @@ header {
 .content {
     overflow: hidden;
     display: block;
-    width: 600px;
+    width: 650px;
     margin: 0px 200px;
     position: relative;
     padding: 25px 25px 25px 25px;
@@ -87,38 +87,77 @@ a {
     font-size: 1.3em;
     color: #783E3E;
 }
-a.icon {
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-}
 #info {
     padding: 16px 0px;
 }
 #links {
     padding: 16px 0px;
 }
+.social {
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    width: 30px;
+    height: 30px;
+}
+.social .description {
+    position: relative;
+    line-height: 30px;
+    height: 30px;
+    padding: 0px 6px;
+}
+.icon {
+    background: url("images/sprites.png") no-repeat;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
 #github {
-    background: url("images/sprites.png") 0px 0px;
+    background-color: #000000;
+}
+.icon#github {
+    background-position: 0px 0px;
 }
 #stackoverflow {
-    background: url("images/sprites.png") -30px 0px;
+    background-color: #ffffff;
+    color: #848484;
+    font-size: 0.7em;
+}
+.icon#stackoverflow {
+    background-position: -30px 0px;
 }
 #linkedin {
-    background: url("images/sprites.png") -60px 0px;
+    background-color: #0072B1;
+}
+.icon#linkedin {
+    background-position: -60px 0px;
 }
 #facebook {
-    background: url("images/sprites.png") -90px 0px;
+    background-color: #3B5998;
+}
+.icon#facebook {
+    background-position: -90px 0px;
 }
 #twitter {
-    background: url("images/sprites.png") -120px 0px;
+    background-color: #00ACED;
+}
+.icon#twitter {
+    background-position: -120px 0px;
 }
 #lastfm {
-    background: url("images/sprites.png") -150px 0px;
+    background-color: #C02A2A;
+}
+.icon#lastfm {
+    background-position: -150px 0px;
 }
 #email {
     color: #783E3E;
     font-size: 1.6em;
     font-weight: bold;
-    text-decoration:none;
+    text-decoration: none;
 }
