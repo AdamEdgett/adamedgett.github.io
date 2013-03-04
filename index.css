@@ -1,6 +1,5 @@
 body {
     font-family: "Signika", sans-serif;
-    font-smooth: always;
     -webkit-font-smoothing: antialiased;
     color: #7B7B7B;
     background-color: #F1F2EC;
@@ -23,13 +22,13 @@ header {
     background-color: #3E6478;
     border-bottom: 10px solid #94C7B6;
     width: 100%;
-    margin: 0px 0px;
+    margin: 0 0;
 }
 .content {
     overflow: hidden;
     display: block;
     width: 650px;
-    margin: 0px 200px;
+    margin: 0 200px;
     position: relative;
     padding: 25px 25px 25px 25px;
 }
@@ -39,12 +38,12 @@ header {
     font-weight: bold;
 }
 div {
-    padding: 25px 0px 0px 0px;
+    padding: 25px 0 0 0;
 }
 p {
     font-size: 1.3em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 abbr {
     font-variant: small-caps;
@@ -54,44 +53,43 @@ abbr {
 }
 h1 {
     font-size: 6.5em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 h2 {
     font-size: 3.5em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 h3 {
     font-size: 2.5em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 h4 {
     font-size: 1.5em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style-type: none;
     text-align: justify;
     display: inline;
     white-space:nowrap;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
 }
 li {
-    padding: 0px;
+    padding: 0;
 }
 a {
     font-size: 1.3em;
     color: #783E3E;
 }
 #info {
-    padding: 16px 0px;
+    padding: 16px 0;
 }
 #links {
-    padding: 16px 0px;
+    padding: 16px 0;
 }
 .social {
     float: left;
@@ -104,15 +102,14 @@ a {
     width: 30px;
     height: 30px;
 }
-.social .description {
+.description {
     position: relative;
     line-height: 30px;
     height: 30px;
-    padding: 0px 6px;
+    padding: 0 6px;
 }
 .icon {
     background: url("images/sprites.png") no-repeat;
-    display: inline-block;
     float: left;
     height: 30px;
     width: 30px;
@@ -121,7 +118,7 @@ a {
     background-color: #000000;
 }
 .icon#github {
-    background-position: 0px 0px;
+    background-position: 0 0;
 }
 #stackoverflow {
     background-color: #ffffff;
@@ -129,31 +126,31 @@ a {
     font-size: 0.7em;
 }
 .icon#stackoverflow {
-    background-position: -30px 0px;
+    background-position: -30px 0;
 }
 #linkedin {
     background-color: #0072B1;
 }
 .icon#linkedin {
-    background-position: -60px 0px;
+    background-position: -60px 0;
 }
 #facebook {
     background-color: #3B5998;
 }
 .icon#facebook {
-    background-position: -90px 0px;
+    background-position: -90px 0;
 }
 #twitter {
     background-color: #00ACED;
 }
 .icon#twitter {
-    background-position: -120px 0px;
+    background-position: -120px 0;
 }
 #lastfm {
     background-color: #C02A2A;
 }
 .icon#lastfm {
-    background-position: -150px 0px;
+    background-position: -150px 0;
 }
 #email {
     color: #783E3E;
