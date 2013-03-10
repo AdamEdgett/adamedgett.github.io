@@ -17,12 +17,14 @@ body {
     background: #94C7B6;
     color: #FFFFFF;
 }
-header {
+.header {
     color: #F1F2EC;
     background-color: #3E6478;
-    border-bottom: 10px solid #94C7B6;
     width: 100%;
     margin: 0 0;
+    padding: 0 0;
+    border-bottom: 10px solid #94C7B6;
+    box-shadow: 0 3px 3px #888888;
 }
 .content {
     overflow: hidden;
