@@ -29,9 +29,9 @@ body {
 .content {
     overflow: hidden;
     display: block;
-    width: 650px;
-    margin: 0 200px;
     position: relative;
+    min-width: 350px;
+    margin: 0 0 0 200px;
     padding: 25px 25px 25px 25px;
 }
 .red {
