@@ -189,8 +189,16 @@ a {
     background-color: #C02A2A;
 }
 
-.icon#lastfm {
+#googleplus {
+    background-color: #D64136;
+}
+
+.icon#googleplus {
     background-position: -150px 0;
+}
+
+.icon#lastfm {
+    background-position: -180px 0;
 }
 
 #email {
