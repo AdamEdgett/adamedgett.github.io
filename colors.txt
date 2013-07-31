@@ -1,11 +1,6 @@
-Light Blue	#69A8C2
-Dark Blue	#3E6478
-Light Pink	#E86187
-Dark Pink	#943D5A
-Light Green	#92B357
-Dark Green	#6C8432
-Grey		#7B7B7B
-Dark Grey	#373637
-Tan			#F1F2EC
-Light Red   #944B4B
-Dark Red    #783E3E
+Dark Red	#c0392b
+Red			#e74c3c
+Light Red 	#d65548
+Grey		#cccccc
+Dark Grey	#7f8c8d
+Blue		#34495e

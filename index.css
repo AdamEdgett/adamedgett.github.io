@@ -1,7 +1,7 @@
 body {
-    font-family: "Signika", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
-    color: #7B7B7B;
+    color: rgba(255, 255, 255, 0.8);
     background-color: #FFFFFF;
     background-repeat: no-repeat;
 
@@ -23,16 +23,18 @@ body {
     color: #FFFFFF;
 }
 
-.header {
-    color: #F1F2EC;
-    background-color: #3E6478;
+#header {
+    color: #FFFFFF;
+    background-color: #c0392b;
     width: 100%;
     margin: 0 0;
     padding: 0 0;
-    border-bottom: 10px solid #94C7B6;
+}
 
-    box-shadow: 0 3px 3px #888888;
-    -webkit-box-shadow: 0 3px 3px #888888;
+.section {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -41,7 +43,7 @@ body {
     position: relative;
     min-width: 350px;
     margin: 0 0 0 200px;
-    padding: 25px 25px 25px 25px;
+    padding: 25px;
 }
 
 .red {
@@ -68,28 +70,26 @@ abbr {
     background: #006E50;
 }
 
-h1 {
-    font-size: 6.5em;
+h1, h2, h3, h4 {
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-size: 6.5em;
 }
 
 h2 {
     font-size: 3.5em;
-    margin: 0;
-    padding: 0;
 }
 
 h3 {
     font-size: 2.5em;
-    margin: 0;
-    padding: 0;
 }
 
 h4 {
     font-size: 1.5em;
-    margin: 0;
-    padding: 0;
 }
 
 ul {
@@ -106,15 +106,22 @@ li {
 
 a {
     font-size: 1.3em;
-    color: #783E3E;
+    color: #FFFFFF;
 }
 
 #info {
     padding: 16px 0;
+    background-color: #e74c3c;
+}
+
+#employment {
+    padding: 16px 0;
+    background-color: #7f8c8d;
 }
 
 #links {
     padding: 16px 0;
+    background-color: #34495e;
 }
 
 .social {
@@ -202,7 +209,7 @@ a {
 }
 
 #email {
-    color: #783E3E;
+    color: #FFFFFF;
     font-size: 1.6em;
     font-weight: bold;
     text-decoration: none;
