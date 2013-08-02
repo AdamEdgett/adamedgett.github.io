@@ -1,16 +1,15 @@
+/* CSS Reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form
+fieldset, legend, input, button, textarea, select, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     color: rgba(255, 255, 255, 0.8);
     background-color: #34495e;
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin: auto;
 }
 
 ::selection {
@@ -27,20 +26,9 @@ body {
     color: #FFFFFF;
     background-color: #c0392b;
     width: 100%;
-    margin: 0 0;
-    padding: 0 0;
-}
-
-.section {
-    display: block;
-    margin: 0;
-    padding: 0;
 }
 
 .content {
-    overflow: hidden;
-    display: block;
-    position: relative;
     min-width: 350px;
     margin: 0 0 0 200px;
     padding: 25px;
@@ -53,27 +41,19 @@ body {
 }
 
 div {
-    padding: 25px 0 0 0;
+    padding: 12px 0;
 }
 
 p {
     font-size: 1.3em;
-    margin: 0;
-    padding: 0;
 }
 
 abbr {
     font-variant: small-caps;
 }
 
-::-moz-selection {
-    background: #006E50;
-}
-
 h1, h2, h3, h4 {
     color: #FFFFFF;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -130,9 +110,7 @@ a {
 }
 
 .description {
-    position: relative;
     line-height: 30px;
-    height: 30px;
     padding: 0 6px;
 }
 
