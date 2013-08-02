@@ -22,24 +22,6 @@ body {
     color: #FFFFFF;
 }
 
-#header {
-    color: #FFFFFF;
-    background-color: #c0392b;
-    width: 100%;
-}
-
-.content {
-    min-width: 350px;
-    margin: 0 0 0 200px;
-    padding: 25px;
-}
-
-.red {
-    color: #783E3E;
-    font-size: 2em;
-    font-weight: bold;
-}
-
 div {
     padding: 12px 0;
 }
@@ -82,6 +64,18 @@ a {
     color: #FFFFFF;
 }
 
+#header {
+    color: #FFFFFF;
+    background-color: #c0392b;
+    width: 100%;
+}
+
+.content {
+    min-width: 350px;
+    margin: 0 0 0 200px;
+    padding: 25px;
+}
+
 #info {
     padding: 16px 0;
     background-color: #e74c3c;
@@ -112,6 +106,12 @@ a {
 .description {
     line-height: 30px;
     padding: 0 6px;
+}
+
+.red {
+    color: #783E3E;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .icon {
