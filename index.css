@@ -163,10 +163,6 @@ a {
     background-position: -120px 0;
 }
 
-#lastfm {
-    background-color: #C02A2A;
-}
-
 #googleplus {
     background-color: #D64136;
 }
@@ -175,13 +171,19 @@ a {
     background-position: -150px 0;
 }
 
+#lastfm {
+    background-color: #C02A2A;
+}
+
 .icon#lastfm {
     background-position: -180px 0;
 }
 
 #email {
-    color: #FFFFFF;
-    font-size: 1.6em;
-    font-weight: bold;
-    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #336DD0;
+}
+
+.icon#email {
+    background-position: -210px 0;
 }
