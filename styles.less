@@ -1,0 +1,188 @@
+@darkred:   #C0392B;
+@red:       #E74C3C;
+@lightred:  #D65548;
+@grey:      #CCCCCC;
+@darkgrey:  #7F8C8D;
+@blue:      #34495E;
+
+/* CSS Reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form
+fieldset, legend, input, button, textarea, select, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: @blue;
+}
+
+::selection {
+  background: @grey;
+  color: white;
+}
+::-moz-selection {
+  background: @grey;
+  color: white;
+}
+
+div {
+  padding: 12px 0;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+abbr {
+  font-variant: small-caps;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+}
+
+h1 {
+  font-size: 6.5em;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+td {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+a {
+  font-size: 1.3em;
+  color: white;
+}
+
+#header {
+  color: white;
+  background-color: @darkred;
+  width: 100%;
+}
+
+.content {
+  min-width: 350px;
+  margin: 0 0 0 200px;
+  padding: 25px;
+}
+
+#info {
+  padding: 16px 0;
+  background-color: @red;
+}
+
+#employment {
+  padding: 16px 0;
+  background-color: @darkgrey;
+}
+
+#links {
+  padding: 16px 0;
+  background-color: @blue;
+}
+
+.social {
+  float: left;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+  width: 30px;
+  height: 30px;
+}
+
+.description {
+  line-height: 30px;
+  padding: 0 6px;
+}
+
+.red {
+  color: #783E3E;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.icon {
+  background: url("images/sprites.png") no-repeat;
+  float: left;
+  height: 30px;
+  width: 30px;
+
+  &#github {
+    background-position: 0 0;
+  }
+  &#stackoverflow {
+    background-position: -30px 0;
+  }
+  &#linkedin {
+    background-position: -60px 0;
+  }
+  &#facebook {
+    background-position: -90px 0;
+  }
+  &#twitter {
+    background-position: -120px 0;
+  }
+  &#googleplus {
+    background-position: -150px 0;
+  }
+  &#lastfm {
+    background-position: -180px 0;
+  }
+  &#email {
+    background-position: -210px 0;
+  }
+}
+
+#github {
+  background-color: black;
+}
+
+#stackoverflow {
+  background-color: white;
+  color: #848484;
+  font-size: 0.7em;
+}
+
+#linkedin {
+  background-color: #0072B1;
+}
+
+#facebook {
+  background-color: #3B5998;
+}
+
+#twitter {
+  background-color: #00ACED;
+}
+
+#googleplus {
+  background-color: #D64136;
+}
+
+#lastfm {
+  background-color: #C02A2A;
+}
+
+#email {
+  background-color: white;
+  color: #336DD0;
+}

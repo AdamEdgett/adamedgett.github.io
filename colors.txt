@@ -1,6 +1,0 @@
-Dark Red	#c0392b
-Red			#e74c3c
-Light Red 	#d65548
-Grey		#cccccc
-Dark Grey	#7f8c8d
-Blue		#34495e
