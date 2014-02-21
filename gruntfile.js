@@ -16,7 +16,7 @@ grunt.initConfig({
         dist: {
             options: {
                 sassDir: 'sass',
-                cssDir: 'css',
+                cssDir: 'stylesheets',
                 outputStyle: 'compressed'
             }
         }
@@ -25,7 +25,7 @@ grunt.initConfig({
         dev: {
             bsFiles: {
                 src: [
-                    'css/*.css',
+                    'stylesheets/*.css',
                     '**/*.html',
                 ],
                 options: {
