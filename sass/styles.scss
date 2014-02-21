@@ -1,30 +1,25 @@
-@darkred:   #C0392B;
-@red:       #E74C3C;
-@lightred:  #D65548;
-@grey:      #CCCCCC;
-@darkgrey:  #7F8C8D;
-@blue:      #34495E;
+$darkred:   #C0392B;
+$red:       #E74C3C;
+$lightred:  #D65548;
+$grey:      #CCCCCC;
+$darkgrey:  #7F8C8D;
+$blue:      #34495E;
 
-/* CSS Reset */
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form
-fieldset, legend, input, button, textarea, select, p, blockquote, th, td {
-  margin: 0;
-  padding: 0;
-}
+@import "compass/reset";
 
 body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: rgba(255, 255, 255, 0.8);
-  background-color: @blue;
+  background-color: $blue;
 }
 
 ::selection {
-  background: @grey;
+  background: $grey;
   color: white;
 }
 ::-moz-selection {
-  background: @grey;
+  background: $grey;
   color: white;
 }
 
@@ -72,7 +67,7 @@ a {
 
 #header {
   color: white;
-  background-color: @darkred;
+  background-color: $darkred;
   width: 100%;
 }
 
@@ -84,17 +79,16 @@ a {
 
 #info {
   padding: 16px 0;
-  background-color: @red;
+  background-color: $red;
 }
 
 #employment {
   padding: 16px 0;
-  background-color: @darkgrey;
+  background-color: $darkgrey;
 }
 
 #links {
   padding: 16px 0;
-  background-color: @blue;
 }
 
 .social {
@@ -121,7 +115,7 @@ a {
 }
 
 .icon {
-  background: url("images/sprites.png") no-repeat;
+  background: url("../images/sprites.png") no-repeat;
   float: left;
   height: 30px;
   width: 30px;

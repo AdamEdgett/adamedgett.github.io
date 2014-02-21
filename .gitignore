@@ -2,3 +2,4 @@
 *.psd
 backup/
 less.js
+.sass-cache/
