@@ -1,0 +1,12 @@
+{
+  "name": "adamedgett.com",
+  "author": "Adam Edgett",
+  "devDependencies" : {
+    "grunt" : "latest",
+    "grunt-contrib-jshint" : "latest",
+    "grunt-contrib-watch" : "latest",
+    "grunt-contrib-compass" : "latest",
+    "grunt-browser-sync" : "latest",
+    "grunt-contrib-jst" : "latest"
+  }
+}
