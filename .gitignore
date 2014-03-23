@@ -1,5 +1,5 @@
 *.css
 *.psd
+node_modules/
 backup/
-less.js
 .sass-cache/
