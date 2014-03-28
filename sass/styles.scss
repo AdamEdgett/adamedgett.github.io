@@ -8,7 +8,7 @@ $blue:      #34495E;
 @import "compass/reset";
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: rgba(255, 255, 255, 0.8);
   background-color: $blue;
@@ -37,6 +37,7 @@ abbr {
 
 h1, h2, h3, h4 {
   color: white;
+  margin: 10px 0;
 }
 
 h1 {
