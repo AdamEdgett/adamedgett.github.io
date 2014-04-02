@@ -29,21 +29,26 @@ grunt.initConfig({
                     '**/*.html',
                 ],
                 options: {
-                    watchTask: false
+                    watchTask: true
                 }
             }
+        }
+    },
+    concurrent: {
+        dev: ['browser_sync', 'watch'],
+        options: {
+            logConcurrentOutput: true
         }
     }
 });
 
 // Load the Grunt plugins.
 grunt.loadNpmTasks('grunt-contrib-compass');
-grunt.loadNpmTasks('grunt-contrib-jshint');
-grunt.loadNpmTasks('grunt-contrib-jst');
 grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-browser-sync');
+grunt.loadNpmTasks('grunt-concurrent');
 // Register the default tasks.
-grunt.registerTask('default', ['watch']);
+grunt.registerTask('default', ['concurrent:dev']);
 grunt.registerTask('bs', ['browser_sync']);
 
 };
