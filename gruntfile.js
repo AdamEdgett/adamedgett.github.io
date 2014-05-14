@@ -21,7 +21,7 @@ grunt.initConfig({
             }
         }
     },
-    browser_sync: {
+    browserSync: {
         dev: {
             bsFiles: {
                 src: [
@@ -35,7 +35,7 @@ grunt.initConfig({
         }
     },
     concurrent: {
-        dev: ['browser_sync', 'watch'],
+        dev: ['browserSync', 'watch'],
         options: {
             logConcurrentOutput: true
         }
@@ -49,6 +49,6 @@ grunt.loadNpmTasks('grunt-browser-sync');
 grunt.loadNpmTasks('grunt-concurrent');
 // Register the default tasks.
 grunt.registerTask('default', ['concurrent:dev']);
-grunt.registerTask('bs', ['browser_sync']);
+grunt.registerTask('bs', ['browserSync']);
 
 };
