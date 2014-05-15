@@ -1,25 +1,34 @@
-$darkred:   #C0392B;
-$red:       #E74C3C;
-$lightred:  #D65548;
-$grey:      #CCCCCC;
-$darkgrey:  #7F8C8D;
-$blue:      #34495E;
+$red:   #C0392B;
+$darkred: #783E3E;
+$gray:  #7F8C8D;
 
 @import "compass/reset";
+
+header {
+  background-color: $red;
+  font-weight: 300;
+
+  h1 {
+    color: white;
+  }
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: $blue;
+  background-color: white;
+}
+
+.container-fluid {
+  max-width: 730px;
 }
 
 ::selection {
-  background: $grey;
+  background: $gray;
   color: white;
 }
 ::-moz-selection {
-  background: $grey;
+  background: $gray;
   color: white;
 }
 
@@ -36,7 +45,7 @@ abbr {
 }
 
 h1, h2, h3, h4 {
-  color: white;
+  color: $red;
   margin: 10px 0;
 }
 
@@ -56,40 +65,17 @@ h4 {
   font-size: 1.5em;
 }
 
-td {
-  font-size: 1.2em;
-  padding: 10px;
+h5 {
+  font-size: 1.3em;
 }
 
 a {
   font-size: 1.3em;
-  color: white;
-}
+  color: $gray;
 
-#header {
-  color: white;
-  background-color: $darkred;
-  width: 100%;
-}
-
-.content {
-  min-width: 350px;
-  margin: 0 0 0 200px;
-  padding: 25px;
-}
-
-#info {
-  padding: 16px 0;
-  background-color: $red;
-}
-
-#employment {
-  padding: 16px 0;
-  background-color: $darkgrey;
-}
-
-#links {
-  padding: 16px 0;
+  &:hover {
+    color: $red;
+  }
 }
 
 .social {
@@ -98,10 +84,14 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: white;
   font-size: 1em;
   width: 30px;
   height: 30px;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .description {
@@ -110,7 +100,7 @@ a {
 }
 
 .red {
-  color: #783E3E;
+  color: $darkred;
   font-size: 2em;
   font-weight: bold;
 }

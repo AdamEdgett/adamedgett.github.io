@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <title>Adam Edgett</title>
     <link rel="icon"
@@ -14,91 +16,89 @@
     <script type="text/javascript" src="js/analytics.js"></script>
   </head>
   <body>
-    <div class="section" id="header">
-      <h1 id="name" class="content">Adam Edgett</h1>
-    </div>
-    <div class="section" id="info">
-      <div class="content">
-        <h3>Computer Engineering Student</h3>
-        <h3 class="red">Northeastern University</h3>
-        <div>
-          <h4>Languages</h4>
-          <p><abbr>Java, C++, Python, ActionScript, Mxml, C#, Scheme, Bash, Javascript, Ruby, Php, Matlab</abbr></p>
-        </div>
-        <div>
-          <h4>Web Development</h4>
-          <p><abbr>Html, Css, Python Django, Adobe Flex, Asp.Net, Sass, Less, jQuery,  Ruby on Rails, Php Smarty</abbr></p>
-        </div>
+    <header>
+      <div class="container-fluid">
+        <h1>Adam Edgett</h1>
       </div>
-    </div>
-    <div class="section" id="employment">
-      <div class="content">
-        <h4>Employment</h4>
-        <table>
-          <tr>
-            <td>July 2013 - Dec 2013</td>
-            <td>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Computer Engineering Student</h3>
+          <a class="red" href="http://www.northeastern.edu">Northeastern University</a>
+          <div>
+            <h4>Languages</h4>
+            <p><abbr>Java, C++, Python, ActionScript, Mxml, C#, Scheme, Bash, Javascript, Ruby, Php, Matlab</abbr></p>
+          </div>
+          <div>
+            <h4>Web Development</h4>
+            <p><abbr>Html, Css, Python Django, Adobe Flex, Asp.Net, Sass, Less, jQuery, Ruby on Rails, Php Smarty</abbr></p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <h4>Employment</h4>
+          <div class="row">
+            <div class="col-sm-4"><h5>July 2013 - Dec 2013</h5></div>
+            <div class="col-sm-4">
               <a href="http://www.verndale.com">Verndale</a>
-            </td>
-          </tr>
-          <tr>
-            <td>May 2012 - June 2013</td>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4"><h5>May 2012 - June 2013</h5></div>
+            <div class="col-sm-4">
               <a href="http://www.embue.com">Embue</a>
-            </td>
-          </tr>
-          <tr>
-            <td>July 2010 - Present</td>
-            <td>
-              <a href="http://www.northeastern.edu/resnet">Northeastern University ResNet</a>
-            </td>
-          </tr>
-        </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4"><h5>July 2010 - Present</h5></div>
+            <div class="col-sm-4">
+              <a href="http://www.northeastern.edu/resnet">NU ResNet</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="section" id="links">
-      <div class="content">
-        <a href="http://www.github.com/AdamEdgett" target="_blank"
-          class="social" id="github">
-          <div class="icon" id="github"></div>
-          <span class="description">github</span>
-        </a>
-        <a href="http://stackoverflow.com/users/1105126/AdamEdgett" target="_blank"
-          class="social" id="stackoverflow">
-          <div class="icon" id="stackoverflow"></div>
-          <span class="description">stackoverflow</span>
-        </a>
-        <a href="http://www.linkedin.com/in/adamedgett" target="_blank"
-          class="social" id="linkedin">
-          <div class="icon" id="linkedin"></div>
-          <span class="description">linkedin</span>
-        </a>
-        <a href="http://www.facebook.com/adam.edgett" target="_blank"
-          class="social" id="facebook">
-          <div class="icon" id="facebook"></div>
-          <span class="description">facebook</span>
-        </a>
-        <a href="http://twitter.com/#!/AdamEdgett" target="_blank"
-          class="social" id="twitter">
-          <div class="icon" id="twitter"></div>
-          <span class="description">twitter</span>
-        </a>
-        <a href="http://google.com/+adamedgett" target="_blank"
-          class="social" id="googleplus">
-          <div class="icon" id="googleplus"></div>
-          <span class="description">google+</span>
-        </a>
-        <a href="http://www.last.fm/user/AEdgett77" target="_blank"
-          class="social" id="lastfm">
-          <div class="icon" id="lastfm"></div>
-          <span class="description">last.fm</span>
-        </a>
-        <a href="mailto:Adam.Edgett@gmail.com" target="_blank"
-          class="social" id="email">
-          <div class="icon" id="email"></div>
-          <span class="description">Adam&#46;Edgett&#64;gmail&#46;com</span>
-        </a>
-      </div>
+    <div class="container-fluid">
+      <a href="http://www.github.com/AdamEdgett" target="_blank"
+        class="social" id="github">
+        <div class="icon" id="github"></div>
+        <span class="description">github</span>
+      </a>
+      <a href="http://stackoverflow.com/users/1105126/AdamEdgett" target="_blank"
+        class="social" id="stackoverflow">
+        <div class="icon" id="stackoverflow"></div>
+        <span class="description">stackoverflow</span>
+      </a>
+      <a href="http://www.linkedin.com/in/adamedgett" target="_blank"
+        class="social" id="linkedin">
+        <div class="icon" id="linkedin"></div>
+        <span class="description">linkedin</span>
+      </a>
+      <a href="http://www.facebook.com/adam.edgett" target="_blank"
+        class="social" id="facebook">
+        <div class="icon" id="facebook"></div>
+        <span class="description">facebook</span>
+      </a>
+      <a href="http://twitter.com/#!/AdamEdgett" target="_blank"
+        class="social" id="twitter">
+        <div class="icon" id="twitter"></div>
+        <span class="description">twitter</span>
+      </a>
+      <a href="http://google.com/+adamedgett" target="_blank"
+        class="social" id="googleplus">
+        <div class="icon" id="googleplus"></div>
+        <span class="description">google+</span>
+      </a>
+      <a href="http://www.last.fm/user/AEdgett77" target="_blank"
+        class="social" id="lastfm">
+        <div class="icon" id="lastfm"></div>
+        <span class="description">last.fm</span>
+      </a>
+      <a href="mailto:Adam.Edgett@gmail.com" target="_blank"
+        class="social" id="email">
+        <div class="icon" id="email"></div>
+        <span class="description">Adam&#46;Edgett&#64;gmail&#46;com</span>
+      </a>
     </div>
   </body>
 </html>
