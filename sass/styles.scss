@@ -1,15 +1,23 @@
 $red:   #C0392B;
 $darkred: #783E3E;
 $gray:  #7F8C8D;
+$lightgray: #C7C7C7;
 
 @import "compass/reset";
 
 header {
   background-color: $red;
   font-weight: 300;
+  text-align: center;
 
   h1 {
     color: white;
+  }
+  i {
+    color: white;
+    &:hover {
+      color: $lightgray;
+    }
   }
 }
 
@@ -78,96 +86,9 @@ a {
   }
 }
 
-.social {
-  float: left;
-  overflow: hidden;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1em;
-  width: 30px;
-  height: 30px;
-
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
-}
-
-.description {
-  line-height: 30px;
-  padding: 0 6px;
-}
-
 .red {
   color: $darkred;
   font-size: 2em;
   font-weight: bold;
 }
 
-.icon {
-  background: url("../images/sprites.png") no-repeat;
-  float: left;
-  height: 30px;
-  width: 30px;
-
-  &#github {
-    background-position: 0 0;
-  }
-  &#stackoverflow {
-    background-position: -30px 0;
-  }
-  &#linkedin {
-    background-position: -60px 0;
-  }
-  &#facebook {
-    background-position: -90px 0;
-  }
-  &#twitter {
-    background-position: -120px 0;
-  }
-  &#googleplus {
-    background-position: -150px 0;
-  }
-  &#lastfm {
-    background-position: -180px 0;
-  }
-  &#email {
-    background-position: -210px 0;
-  }
-}
-
-#github {
-  background-color: black;
-}
-
-#stackoverflow {
-  background-color: white;
-  color: #848484;
-  font-size: 0.7em;
-}
-
-#linkedin {
-  background-color: #0072B1;
-}
-
-#facebook {
-  background-color: #3B5998;
-}
-
-#twitter {
-  background-color: #00ACED;
-}
-
-#googleplus {
-  background-color: #D64136;
-}
-
-#lastfm {
-  background-color: #C02A2A;
-}
-
-#email {
-  background-color: white;
-  color: #336DD0;
-}
