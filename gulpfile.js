@@ -9,7 +9,6 @@ var paths = {
 };
 
 gulp.task('compass', function() {
-  //gulp.src('./sass/*.scss')
   gulp.src(paths.sass)
   .pipe(compass({
     css: 'stylesheets',

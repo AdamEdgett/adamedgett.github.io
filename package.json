@@ -3,7 +3,7 @@
   "author": "Adam Edgett",
   "devDependencies": {
     "gulp": "^3.8.1",
-    "gulp-compass": "^1.1.9"
-    "browser-sync": "^0.9.1",
+    "gulp-compass": "^1.1.9",
+    "browser-sync": "^0.9.1"
   }
 }
