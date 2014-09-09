@@ -36,4 +36,5 @@ gulp.task('watch', function() {
   gulp.watch(paths.html, ['bs-reload']);
 });
 
-gulp.task('default', ['watch', 'compass', 'browser-sync']);
+gulp.task('build', ['compass']);
+gulp.task('default', ['compass', 'browser-sync', 'watch']);
