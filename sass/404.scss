@@ -1,0 +1,44 @@
+$red:   #C0392B;
+$darkred: #783E3E;
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: $red;
+  border: solid white;
+  border-width: 25px 0;
+}
+
+.container-fluid {
+  max-width: 730px;
+  text-align: center;
+  padding-top: 20%;
+}
+
+::selection {
+  background: $darkred;
+  color: white;
+}
+::-moz-selection {
+  background: $darkred;
+  color: white;
+}
+
+a, a:hover {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 10.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
