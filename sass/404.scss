@@ -1,5 +1,4 @@
-$red:   #C0392B;
-$darkred: #783E3E;
+@import "modules/colors";
 
 html {
   height: 100%;
@@ -21,11 +20,11 @@ body {
 }
 
 ::selection {
-  background: $darkred;
+  background: $dark-red;
   color: white;
 }
 ::-moz-selection {
-  background: $darkred;
+  background: $dark-red;
   color: white;
 }
 

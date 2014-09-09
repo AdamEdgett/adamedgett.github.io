@@ -1,8 +1,4 @@
-$red:   #C0392B;
-$darkred: #783E3E;
-$gray:  #7F8C8D;
-$lightgray: #C7C7C7;
-
+@import "modules/colors";
 @import "compass/reset";
 
 header {
@@ -16,7 +12,7 @@ header {
   i {
     color: white;
     &:hover {
-      color: $lightgray;
+      color: $light-gray;
     }
   }
 }
@@ -87,7 +83,7 @@ a {
 }
 
 .red {
-  color: $darkred;
+  color: $dark-red;
   font-size: 2em;
   font-weight: bold;
 }
