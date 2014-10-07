@@ -3,3 +3,6 @@
 node_modules/
 backup/
 .sass-cache/
+
+# keybase.io verification file
+.well-known/keybase.txt
