@@ -2,7 +2,7 @@
   "name": "adamedgett.com",
   "author": "Adam Edgett",
   "devDependencies": {
-    "browser-sync": "^0.9.1",
+    "browser-sync": "^2.10.1",
     "gulp": "^3.8.1",
     "gulp-less": "^3.0.5",
     "less": "^2.6.1"
