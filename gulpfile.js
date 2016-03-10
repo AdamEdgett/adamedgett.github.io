@@ -1,12 +1,21 @@
 var gulp = require('gulp');
 
-var compass = require('gulp-compass');
+var less = require('gulp-less');
 var browserSync = require('browser-sync');
 
 var paths = {
-  sass: 'sass/*.scss',
+  less: 'less/*.less',
   html: '*.html'
 };
+
+gulp.task('less', function() {
+  gulp.src([ 'less/main.less', 'less/404.less' ])
+  .pipe(less({
+    paths: [ 'less' ]
+  }))
+  .pipe(gulp.dest('stylesheets'))
+  .pipe(browserSync.reload({stream:true}));
+});
 
 gulp.task('compass', function() {
   gulp.src(paths.sass)
@@ -32,9 +41,9 @@ gulp.task('bs-reload', function() {
 
 // Rerun the task when a file changes
 gulp.task('watch', function() {
-  gulp.watch(paths.sass, ['compass']);
+  gulp.watch(paths.less, ['less']);
   gulp.watch(paths.html, ['bs-reload']);
 });
 
-gulp.task('build', ['compass']);
-gulp.task('default', ['compass', 'browser-sync', 'watch']);
+gulp.task('build', ['less']);
+gulp.task('default', ['less', 'browser-sync', 'watch']);

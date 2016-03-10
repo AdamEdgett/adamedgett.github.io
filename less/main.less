@@ -1,18 +1,21 @@
-@import "modules/colors";
-@import "compass/reset";
+@import 'modules/colors';
+@import 'modules/reset';
 
 header {
-  background-color: $red;
-  font-weight: 300;
+  background-color: @red;
   text-align: center;
 
   h1 {
     color: white;
+    font-weight: 300;
+  }
+  a.social {
+    font-size: 1.5em;
   }
   i {
     color: white;
     &:hover {
-      color: $light-gray;
+      color: @light-gray;
     }
   }
 }
@@ -28,16 +31,16 @@ body {
 }
 
 ::selection {
-  background: $gray;
+  background: @gray;
   color: white;
 }
 ::-moz-selection {
-  background: $gray;
+  background: @gray;
   color: white;
 }
 
 div {
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 p {
@@ -49,42 +52,38 @@ abbr {
 }
 
 h1, h2, h3, h4 {
-  color: $red;
+  color: @red;
   margin: 10px 0;
 }
 
 h1 {
-  font-size: 7em;
+  font-size: 7.5em;
 }
 
 h2 {
-  font-size: 3.5em;
+  font-size: 4.5em;
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 h5 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 a {
-  font-size: 1.3em;
-  color: $gray;
+  color: @gray;
 
   &:hover {
-    color: $red;
+    color: @red;
   }
 }
 
 .red {
-  color: $dark-red;
-  font-size: 2em;
-  font-weight: bold;
+  color: @dark-red;
 }
-

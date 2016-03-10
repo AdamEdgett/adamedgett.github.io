@@ -1,4 +1,5 @@
-@import "modules/colors";
+@import 'modules/colors';
+@import 'modules/reset';
 
 html {
   height: 100%;
@@ -8,7 +9,7 @@ body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: $red;
+  background-color: @red;
   border: solid white;
   border-width: 25px 0;
 }
@@ -20,11 +21,11 @@ body {
 }
 
 ::selection {
-  background: $dark-red;
+  background: @dark-red;
   color: white;
 }
 ::-moz-selection {
-  background: $dark-red;
+  background: @dark-red;
   color: white;
 }
 
